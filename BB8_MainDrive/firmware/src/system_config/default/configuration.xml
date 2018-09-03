@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Configuration>
-    <General>
-        <HarmonyPath path="../../../microchip/harmony/v2_06"/>
-        <Board name="Custom Board"/>
-        <Processor name="PIC32MK1024MCF064"/>
-    </General>
+  <DisplayManager>
+    <SystemInitScript dnOrder="0"/>
+    <SystemStartScript dnOrder="1"/>
+  </DisplayManager>
+  <General>
+    <HarmonyPath dnOrder="0" path="../../../microchip/harmony/v2_06"/>
+    <Processor dnOrder="1" name="PIC32MK1024MCF064"/>
+    <Board dnOrder="2" name="Custom Board"/>
+    <ForceOptimization dnOrder="3" flag="true"/>
+    <MergeStrategy dnOrder="4" flag="USER_ALL"/>
+  </General>
 </Configuration>
