@@ -1,6 +1,6 @@
 //#include <XBee.h>
+#include "Communication.h"
 #include <XBee.h>
-#include "Com.h"
 
 
 

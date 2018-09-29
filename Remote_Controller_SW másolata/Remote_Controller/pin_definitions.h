@@ -4,7 +4,7 @@
 #define joystick1_Y A6
 
 //-------------------JoyStick_2-------------------
-#define joystick2_X A1
+#define joystick2_X 14
 #define joystick2_Y A0
 
 //-------------------JoyStick_3-------------------
