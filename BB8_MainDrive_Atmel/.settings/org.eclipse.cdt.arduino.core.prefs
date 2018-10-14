@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+libraries=["AccelStepper","Adafruit PWM Servo Driver Library","FreeRTOS",{"package"\:"arduino","platform"\:"avr","library"\:"Wire"},"Adafruit Motor Shield library","Servo"]
